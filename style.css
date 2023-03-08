@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+/* **************************************Login And signup page CSS********************************************* */
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+} /* *********************************Main-Container*********************************** */
+.Main_container{
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+}
+.Main_container .Left_Side,
+.Main_container .Right_Side{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+}
+.Main_container .Left_Side{
+    padding-bottom: 14%;
+}
+.Main_container .Right_Side{
+    align-items: center;
+}
+.Main_container .Left_Side h1{
+    color: #1974D2;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.Main_container .Left_Side p{
+    color: #000000;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Main_container .Right_Side .form-box{
+    width: 450px;
+    margin-left: 50px;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    box-shadow: 5px 5px 6px #C0C0C0;
+}
+.Main_container .Right_Side .form-box .inputs input,
+.Main_container .Right_Side .form-box .Login_button .btn{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 16px;
+}
+.Main_container .Right_Side .form-box .inputs input{
+    padding: 0 10px 0 10px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+}
+.Main_container .Right_Side .form-box .inputs input::placeholder{
+    padding: 0 10px 0 0;
+    font-size: 15px;
+}
+
+.Main_container .Right_Side .form-box .Login_button .btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1974D2;
+    border-radius: 8px;
+    border: none;
+    transition: 2s ease-in-out;
+}
+.Main_container .Right_Side .form-box .Login_button .btn:hover{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) #1974D2;
+}
+.Main_container .Right_Side .form-box .Forgot_password .ForPass_para{
+    color: #1974D2;
+    margin: 0 0 20px 0;
+}
+.Main_container .Right_Side .form-box .Forgot_password .ForPass_para a{
+    text-decoration: none;
+}
+.Main_container .Right_Side .form-box .Forgot_password .ForPass_para a:hover{
+    text-decoration: underline;
+}
+#Login_form{
+    border-bottom: 1.5px solid #C0C0C0;
+}
+.Main_container .Right_Side .form-box .create_NewAccount{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+.Main_container .Right_Side .form-box .create_NewAccount .btn1{
+    width: 50%;
+    height: 50px;
+    background-color: #6CC417;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+.Main_container .Right_Side .form-box .create_NewAccount .btn1:hover{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) #6CC417;
+}
+.Main_container .Right_Side .Right_SideCreatePage{
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Main_container .Right_Side .Right_SideCreatePage a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000000;
+    margin-right: 6px;
+}
+.Main_container .Right_Side .Right_SideCreatePage a:hover{
+    text-decoration: 1px solid underline #000000;
+}
+/* *******************************************Footer************************************* */
+
+.Footer_Container{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
+.Footer_Container .Footer_InnerContainer{
+    width: 78%;
+    height: 200px;
+    margin: auto;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row1{
+    width: 100%;
+    height: 60px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    border-bottom: 1.5px solid #C0C0C0;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row1 #Sizing{
+    padding: 0;
+    color: #808080;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row1 ul{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    list-style: none;
+    margin-right: 12px;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row1 ul li{
+    padding-left: 12px;
+    font-size: 14px;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row1 ul li a,
+.Footer_Container .Footer_InnerContainer .Footer_row2 ul li a{
+    text-decoration: none;
+    color: #808080;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row1 ul li a:hover,
+.Footer_Container .Footer_InnerContainer .Footer_row2 ul li a:hover{
+    text-decoration: 1px solid #808080 underline;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row1 .Footer_more{
+    width: 30px;
+    height: 22px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.Footer_Container .Footer_InnerContainer .Footer_row2{
+    width: 100%;
+    height: 100px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row2 ul{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: start;
+    list-style: none;
+}
+.Footer_Container .Footer_InnerContainer .Footer_row2 ul li{
+    color: #000000;
+    font-size: 14px;
+    list-style: none;
+    padding: 0 15px 0 0;
+}
+
+.Footer_Container .Footer_InnerContainer .Footer_row3{
+    width: 100%;
+    color: #808080;
+
+}
+.Footer_Container .Footer_InnerContainer .Footer_row3 .Footer_CopyWrite{
+    font-size: 14px;
+}
+
+/* ***************************************************Create new account page CSS****************************** */
+
+.New_accountPage{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(225,225,225,0.8),rgba(225,225,225,0.8));
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.New_accountPage .New_accountForm{
+    width: 30%;
+    height: 80vh;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 6px 6px 6px #C0C0C0;
+    border-radius: 4px;
+}
+
+.New_accountPage .New_accountForm .Form_Heading{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1.5px solid #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    padding: 5px 12px;
+}
+.New_accountPage .New_accountForm .Form_Heading .Form_Contant h2{
+    color: #000000;
+    font-size: 30px;
+}
+.New_accountPage .New_accountForm .Form_Heading .Form_Contant p{
+    color: #808080;
+    font-size: 17px;
+}
+.New_accountPage .New_accountForm .Form_Heading .accountPage_CloseIcon i{
+    font-size: 30px;
+    padding: 10px 0 0 0;
+    color: #808080;
+}
+.New_accountPage .New_accountForm .input_box{
+    width: 92%;
+    height: 30px;
+    margin: 10px auto;
+}
+.New_accountPage .New_accountForm #size_Name{
+    display: flex;
+}
+.New_accountPage .New_accountForm .input_box .Fname_sizing,
+.New_accountPage .New_accountForm .input_box .Surname_sizing{
+    width: 49%;
+    height: 28px;
+    padding: 0 10px;
+    border: 1.5px solid #C0C0C0;
+    border-radius: 3px;
+    outline: none;
+}
+.New_accountPage .New_accountForm .input_box .Surname_sizing{
+    margin-left: 1%;
+}
+.New_accountPage .New_accountForm .input_box .Phone_Email_sizing,
+.New_accountPage .New_accountForm .input_box .password_sizing{
+    width: 100%;
+    height: 28px;
+    padding: 0 10px;
+    border: 1.5px solid #C0C0C0;
+    border-radius: 3px;
+    outline: none;
+}
+.New_accountPage .New_accountForm .input_boxDob,
+.New_accountPage .New_accountForm .input_boxGen{
+    width: 92%;
+    height: 40px;
+    margin: 20px auto;
+}
+.New_accountPage .New_accountForm .input_boxDob p,
+.New_accountPage .New_accountForm .input_boxGen p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.New_accountPage .New_accountForm .input_boxDob .dob_sizing{
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1.5px solid #C0C0C0;
+    border-radius: 3px;
+    outline: none;
+}
+.New_accountPage .New_accountForm .input_boxGen .Gender_RadioBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.New_accountPage .New_accountForm .input_boxGen .Gender_RadioBox .Gender_femail,
+.New_accountPage .New_accountForm .input_boxGen .Gender_RadioBox .Gender_male,
+.New_accountPage .New_accountForm .input_boxGen .Gender_RadioBox .Gender_custom{
+    width: 31%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #808080;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.New_accountPage .New_accountForm .para1,
+.New_accountPage .New_accountForm .para2{
+    width: 92%;
+    margin: auto;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.New_accountPage .New_accountForm .para1 a,
+.New_accountPage .New_accountForm .para2 a{
+    text-decoration: none;
+}
+.New_accountPage .New_accountForm .para1 a:hover,
+.New_accountPage .New_accountForm .para2 a:hover{
+    text-decoration: underline;
+}
+.New_accountPage .New_accountForm .Sign_UpBtn{
+    width: 45%;
+    height: 30px;
+    background-color: #6CC417;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    margin: 15px 0 0 27%;
+}
+.New_accountPage .New_accountForm .Sign_UpBtn:hover{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) #6CC417;
+}
